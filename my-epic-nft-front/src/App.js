@@ -235,15 +235,8 @@ function App() {
                 >
                   Mint NFT
                 </button>
-                <button onClick={getNfts}>get</button>
-                <div>
-                  {NFTcollection.map(e=>(
-                    <>
-                    <p className="sub-text">{e.name}</p>
-                    {/* <p className="sub-text">{e}</p> */}
-                    </>
-                  ))}
-                </div>
+                
+              
               </>
             )}
             {isLoading ? <h1 className="sub-text">Mining...</h1> : null}
